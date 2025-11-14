@@ -74,3 +74,20 @@ footer {
     color: white;
     margin-top: 230px;
 }
+/* Button for navigating to Profile 2 */
+.btn-profile2 {
+    background-color: #0033ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.btn-profile2:hover {
+    background-color: #001a99; /* darker blue on hover */
+}
+
