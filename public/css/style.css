@@ -1,0 +1,76 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dcdcdc; /* light gray */
+}
+
+/* Header */
+header {
+    background-color: #0033ff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Content wrapper */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+/* Card style for both sections */
+.biography, .achievements {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Biography layout */
+.biography {
+    display: flex;
+    align-items: center;
+}
+
+.biography img {
+    height: 220px;
+    width: auto;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+/* Section Titles */
+.biography h2,
+.achievements h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Achievements List */
+.achievements ul {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.achievements li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #0033ff;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    margin-top: 50px;
+}
